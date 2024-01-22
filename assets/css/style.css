@@ -1,0 +1,93 @@
+.kanu{
+    background-color:black;
+    height: 2305px;
+    width: 848px;
+    font-family: monospace;
+    margin: 0px 100px;
+ }
+ .shirts{
+    display: flex;
+    justify-content: center;
+ }
+ .shirts_heading{
+   color: white;
+   font-size: 36px;
+   text-align: center;
+   justify-content: center;
+   text-shadow: 2px 2px rgb(128, 0, 124);
+ }
+ .shirts_heading{
+   color: rgb(255, 187, 0);
+   font-size: 50px;
+   text-align: center;
+   justify-content: center;
+   text-shadow: 2px 2px rgb(128, 0, 124);
+ }
+ .ahuja{
+   display: flex;
+   color: white;
+   background-color: rgb(128, 128, 128);
+   gap: 79px;
+   justify-content: center;
+   text-align: center;
+   font-size: 19px;
+ }
+ .shirts_product{
+   display: block;
+   justify-content: center;
+   text-align: center;
+   font-size: 36px;
+   color: rgb(255, 187, 0);
+ }
+ .grid_container{  
+   margin: 5px;
+   padding: 5px;
+   margin: 0px 100px;
+   gap: 5px;   
+ }
+ .grid_item{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+ }
+ .kl{
+   display: block;
+   text-align: center;
+   justify-content: center; 
+   color: white; 
+}
+.ui{
+   text-align: center;
+   justify-content: center; 
+   color: rgb(255, 187, 0);
+}
+.item1{
+   grid-column: 1/3;
+   grid-row: 2/3;
+   margin: 5px;
+   padding: 5px;
+   background-color: rgb(128, 128, 128);
+   gap: 5px;
+}
+.item2{
+   grid-column: 2/4;
+   grid-row: 5/6;
+   margin: 5px;
+   padding: 5px;
+   background-color: rgb(128, 128, 128);
+   gap: 5px;
+}
+.foot{
+   display: flex;
+   color: white;
+   background-color: rgb(128, 128, 128);
+   justify-content: center;
+   text-align: center;
+   font-size: 19px;
+   margin: 15px 0px;
+}
+.shirt_collection{
+   margin: 5px;
+   background-color: rgb(128, 128, 128);
+   gap: 5px;
+   padding: 5px;
+}
