@@ -1,4 +1,4 @@
-.kanu{
+.shirts_all_collection{
     background-color:black;
     height: 2305px;
     width: 848px;
@@ -23,7 +23,7 @@
    justify-content: center;
    text-shadow: 2px 2px rgb(128, 0, 124);
  }
- .ahuja{
+ .shirts_navigation{
    display: flex;
    color: white;
    background-color: rgb(128, 128, 128);
@@ -49,13 +49,13 @@
    display: grid;
    grid-template-columns: repeat(3,1fr);
  }
- .kl{
+ .collection_heading{
    display: block;
    text-align: center;
    justify-content: center; 
    color: white; 
 }
-.ui{
+.collection_price{
    text-align: center;
    justify-content: center; 
    color: rgb(255, 187, 0);
